@@ -2,7 +2,7 @@
 
 Student management system is a entry level project for all cse Student.if any student student start study  bsc in  cse than this project perfect for a first semester student as a project 1
 
-**This the Welcome Screen**
+** This the Welcome Screen **
 ```
 int main()
 {
@@ -22,9 +22,9 @@ int main()
     menu();
 }
 ```
-##Here is the function use in project
+# Here is the function use in project
 
-**Here 5 menu item and its work with switch stetment . **
+## Here 5 menu item and its work with switch stetment .
 
 ```
 void menu()
@@ -66,6 +66,10 @@ void menu()
 
     }
 }
+``` 
+This is add Faunction for add data
+
+```
     void add()
     {
         FILE *fptr;
@@ -106,6 +110,10 @@ void menu()
     menu();
 
 }
+```
+
+This is the function for show exgisting data 
+```
 void view()
 {
     FILE *fp;
@@ -135,6 +143,9 @@ void view()
     getch();
     menu();
 }
+```
+This is Search Function 
+```
 void search()
 {
     FILE *fp;
@@ -170,6 +181,10 @@ void search()
     getch();
     menu();
 }
+```
+This Function use for data delete
+
+```
 void del()
 {
         char stname[20];
